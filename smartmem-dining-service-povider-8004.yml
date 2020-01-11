@@ -41,10 +41,11 @@ mybatis-plus:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7001:7002/eureka/,http://127.0.0.1:7001:7003/eureka/
+      defaultZone: http://127.0.0.1:7001/eureka/
   instance:
     instance-id: smartmem-dining-service-povider-8004
 
+#,http://127.0.0.1:7002/eureka/,http://127.0.0.1:7001:7003/eureka/
 
 # hystrix配置
 feign:
